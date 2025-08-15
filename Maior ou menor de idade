@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=tial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Seja Bem-Vindo(a)");
+        let nome = prompt ("Qual é o seu nome");
+        let idade = prompt ("Qual é a sua idade:");
+        if(idade>=18)
+        {
+            document.write("Olá ", nome, " você é de maior")
+        }
+        else
+        document.write("Olá ", nome, " você é de menor");
+    </script>
+</body>
+</html>
