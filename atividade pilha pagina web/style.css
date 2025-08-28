@@ -1,0 +1,104 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(caveira\ fundo.jpg);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50vw;
+    height: 95vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff3f;
+    border-radius: 10px;
+}
+.bntcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -100px;
+}
+.nomeContainer{
+    position: absolute;
+    margin-top: -500px;
+}
+h1{
+    font-size: 50px;
+    font-family: papyrus;
+
+}
+.guia{
+    position: absolute;
+}
+h3{
+    font-size: 25px; 
+    display: flex;
+    margin-top: 100px;
+}
+button{
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    background-color: rgba(128, 128, 128, 0.096);
+    color: #fff;
+    cursor: pointer;
+}
+.inputContainer{
+    position: absolute;
+    margin-top: -300px;
+}
+input{
+    background-color: rgba(128, 128, 128, 0.288);
+    color: #fff;
+    margin: 70px;
+    width: 500px;
+  margin: 70px;
+  padding: 15px;
+  border: 1px solid #00000063;
+  border-radius: 7px;
+  box-shadow: 0 0 2px 1px #000000c5;
+
+}
+.lista{
+    position: absolute;
+    margin-top: 350px;
+}
+ul{
+  margin: 30px;
+  font-size: 20px;
+}
+li{
+    height: 35px;
+    width: 130px;
+    margin: 2px;
+    padding: 20px;
+    
+    border: 1px solid #0000007c;
+    border-radius: 7px;
+    box-shadow: 0 0 2px 1px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 23px;
+}
+footer{
+    margin-top: 690px;
+    position: absolute;
+   
+}

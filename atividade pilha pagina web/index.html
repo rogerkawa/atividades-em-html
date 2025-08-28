@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Kn DarkWeb</h1>
-    <input type="text" id="navegador" placeholder="Digite o nome da página">
-    <br>
-    <br>
-    <button onclick="avancar()">avançar</button>
-    <button onclick="voltar()">retornar</button>
-    <br>
-    <br>
-    <button onclick="pagAtual()">pagina atual</button>
-    <h3>Guias Abertas</h3>
-    <ul id ="web"></ul>
-    <script src="scriptweb.js"></script>
+    <div class="container">
+        <div class="nomeContainer">
+            <h1>Kn DarkWeb</h1>
+        </div>
+
+        <div class="inputContainer">
+            <input type="text" id="navegador" placeholder="Digite o nome da página">
+        </div>
+        <div class="bntcontainer">
+            <button onclick="avancar()">avançar</button>
+            <button onclick="voltar()">retornar</button>
+            <button onclick="pagAtual()">pagina atual</button>
+        </div>
+        <br>
+        <div class="guia">
+         <h3>Guias Abertas</h3>
+        </div>
+        <div class="lista">
+            <ul id ="web"></ul>
+        </div>
+        <script src="scriptweb.js"></script>
+        <footer> © Proibido Imitações</footer>
+    </div>
     </body>
 </html>
